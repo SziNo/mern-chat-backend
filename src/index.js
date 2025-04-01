@@ -15,7 +15,7 @@ app.use(express.json({ limit: '3mb' }))
 app.use(cookieParser())
 app.use(
   cors({
-    origin: 'https://mern-chat-frontend-lemon.vercel.app/',
+    origin: 'https://mern-chat-frontend-lemon.vercel.app',
     credentials: true,
   })
 )
