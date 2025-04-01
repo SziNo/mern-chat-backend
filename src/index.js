@@ -17,6 +17,7 @@ app.use(
   cors({
     origin: 'https://mern-chat-frontend-lemon.vercel.app',
     credentials: true,
+    exposedHeaders: ['set-cookie'],
   })
 )
 
